@@ -1,0 +1,117 @@
+body{
+	font-family: Roboto;
+
+	// https://uigradients.com/#GreenandBlue
+	background: #c2e59c;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1{
+	background: #2980b9;
+	color: white;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+}
+
+li:nth-child(2n){
+    background: #f7f7f7;
+}
+
+span{
+	background-color: #e74c3c;
+	height:40px;
+	margin-right: 20px;
+	width: 0;
+	color: white;
+	display: inline-block;
+	/*垃圾标志居中*/
+	text-align: center;
+	/*鼠标悬停时的动画*/
+	transition: 0.2s linear;
+	/*当span隐藏时，解决垃圾标志未隐藏的问题*/
+	opacity: 0;
+}
+
+span:hover{
+	width: 40px;
+	opacity: 1.0;
+}
+
+input{
+	font-size: 18px;
+	background-color: #f7f7f7;
+	color: #2980b9;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	border:3px solid rgba(0,0,0,0);
+}
+
+input:focus{
+	background-color: #fff;
+	border: 3px solid #2980b9;
+	outline: none;
+}
+
+.fa-plus{
+	float: right;
+}
+
+#container{
+	/*border: 2px solid green;*/
+	width: 360px;
+	margin: 10px auto;
+	background: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
+
+.h11{
+	
+	background:  red;
+}
+
+.h12{
+	background-color: hsl(14, 100%, 53%);
+}
+
+.h13{
+	/*border: 2px solid green;*/
+	background-color: hsla(14, 100%, 53%, 0.7);
+
+}
+
+.h14{
+	background-color:   hsla(14, 100%, 53%, 0.4);
+}
+
+.h15{
+	background-color: rgb(50, 115, 220, 0.2);
+}
+
+
+
+
+
+
+.completed{
+	color: gray;
+	text-decoration: line-through;
+}
